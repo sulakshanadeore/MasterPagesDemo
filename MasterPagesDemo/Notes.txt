@@ -1,0 +1,20 @@
+﻿Master Pages
+-------------
+
+Master Pages---- main page/s
+used for similar layouts over the whole app.
+
+Extension---> .Master
+
+Common content/layout for all the pages of the app--- Master Layout on the 
+Master Page
+And
+The Page Content which changes with every page is put in the Content Place
+Holder which is given by the master page.
+-------------------------------------------------
+1) Creation of the master page
+a) Select Web Forms Master Page
+
+2) How to apply the master page
+  a) Design Time
+  b) Runtime
