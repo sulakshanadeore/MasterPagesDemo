@@ -113,6 +113,8 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="AccountForm.aspx" />
+    <Content Include="MyAppError.aspx" />
+    <Content Include="notfound.aspx" />
     <Content Include="CheckBalance.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -121,6 +123,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Demo1.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -180,6 +183,20 @@
     <Compile Include="AccountForm.aspx.designer.cs">
       <DependentUpon>AccountForm.aspx</DependentUpon>
     </Compile>
+    <Compile Include="MyAppError.aspx.cs">
+      <DependentUpon>MyAppError.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyAppError.aspx.designer.cs">
+      <DependentUpon>MyAppError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="notfound.aspx.cs">
+      <DependentUpon>notfound.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="notfound.aspx.designer.cs">
+      <DependentUpon>notfound.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -216,6 +233,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo1.aspx.cs">
+      <DependentUpon>Demo1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Demo1.aspx.designer.cs">
+      <DependentUpon>Demo1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

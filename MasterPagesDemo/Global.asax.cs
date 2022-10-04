@@ -17,5 +17,10 @@ namespace MasterPagesDemo
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+
+        void Application_Error(object sender, EventArgs e) 
+        {
+            System.Diagnostics.Process.Start("EentVwr.exe");
+        }
     }
 }
